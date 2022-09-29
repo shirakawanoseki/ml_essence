@@ -17,6 +17,6 @@ class GradientDescent:
             x = x - self.alpha * grad
             grad = self.df(x)
             path.append(x)
-        self.path_ = np.arrary(path)
+        self.path_ = np.array(path)
         self.x_ = x
         self.opt_ = self.f(x)
